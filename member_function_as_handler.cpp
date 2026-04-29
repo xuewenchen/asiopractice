@@ -25,12 +25,11 @@ public:
             timer_.async_wait(std::bind(&printer::print, this));
         }
     }
-
-
 private:
     boost::asio::steady_timer timer_;
     int count_ = 0;
 };
+
 
 int main() {
     boost::asio::io_context io;
