@@ -1,3 +1,8 @@
 ./vscode
 ./idea
 ./build
+main
+bind_arguments_to_handler_v1
+timer_sync
+timer_async
+member_function_as_handler
