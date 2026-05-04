@@ -8,3 +8,4 @@ timer_async
 member_function_as_handler
 mulithread
 strand_test
+daytime_server
